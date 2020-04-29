@@ -35,7 +35,7 @@ table {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .section-padding {
@@ -82,9 +82,9 @@ h1, h2, h3, h4, h5, h6 {
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 10s;
   animation-name: animatebottom;
-  animation-duration: 1s
+  animation-duration: 10s
 }
 
 @-webkit-keyframes animatebottom {
@@ -158,7 +158,7 @@ HEADER
 .navbar-default .navbar-brand {
   color: #fff;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -196,7 +196,7 @@ HEADER
 }
 
 .banner-info {
-  padding-top: 140px;
+  padding-top: 160px;
   color: #fff;
 }
 
@@ -208,6 +208,7 @@ h1.bnr-title {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  padding-top: 50px;
 }
 
 h2.bnr-sub-title {
@@ -375,7 +376,7 @@ ul.service-list li i {
 }
 
 .service-item h3 {
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .service-item p {
@@ -509,7 +510,7 @@ TESTIMONIAL
   text-shadow: 1px 1px 2px #333;
   text-align: center;
   display: inline-block;
-  width: 100%;
+  width: 90%;
   margin: 20px 0;
   padding: 0 80px;
   position: relative;
@@ -523,7 +524,7 @@ TESTIMONIAL
   text-shadow: 1px 1px 2px #333;
   text-align: center;
   display: inline-block;
-  width: 100%;
+  width: 90%;
 }
 
 .bx-viewport {
@@ -632,9 +633,9 @@ contact
 .btn-submit, .btn-submit:hover, .btn-submit:focus {
   background-color: transparent;
   border-radius: 60px;
-  color: #be9e21;
+  color: #ffffff;
   font-weight: 400;
-  border: 1px solid #be9e21;
+  border: 1px solid #ffffff;
   font-size: 14px;
   padding: 6px 20px;
 }
@@ -642,12 +643,12 @@ contact
 .form-control {
   background-color: transparent;
   border-radius: 0px;
-  color: #be9e21 !important;
-  border-color: #be9e21;
+  color: #ffffff !important;
+  border-color: #ffffff;
 }
 
 .form-control:focus {
-  border-color: #be9e21;
+  border-color: #ffffff;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
@@ -694,7 +695,7 @@ contact
 }
 
 .loction-info p i {
-  color: #be9e21;
+  color: #ffffff;
 }
 
 /***********************************
@@ -762,7 +763,7 @@ cta
 
 .cta .cta-info .cta-btn {
   margin-top: 16px;
-  background-color: rgb(190, 158, 33);
+  background-color: rgb(255, 255, 255);
   padding: 20px 50px;
   color: #FFF;
   font-size: 22px;
